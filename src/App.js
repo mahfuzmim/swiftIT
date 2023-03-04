@@ -9,7 +9,7 @@ function App() {
 
   return (
     <UserContext.Provider className="App" value={user}>
-     <Comp1 user={user}/>
+     <Comp1 user={user1}/>
     </UserContext.Provider>
   );
 }
